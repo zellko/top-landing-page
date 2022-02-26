@@ -14,15 +14,19 @@ body {
     font-size: 18px;
 }
 
-.logo {
+.headername {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
     margin-right: auto;
 }
 
 .img_logo {
     height: 64px;
     width: 64px;
-    border-radius: 50%;
+    border-radius: 30%;
     margin: 0;
+    background-color: #f9faf8;
 }
 
 .header ul {
@@ -36,11 +40,116 @@ body {
 }
 
 
-/* FOOTER SECTION */
+/* CONTENT SECTION */
 
 .content {
-    background-color: white;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* HOOK */
+
+.hook {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 150px;
+    gap: 64px;
+}
+
+.hook-text .hook-img {
+    flex: 1;
+}
+
+
+/* img {
+    max-width: 100%;
+} */
+
+.hook-text {
+    width: 350px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 8px 32px;
+}
+
+
+/* INFO */
+
+.info {
+    background-color: #f9faf8;
+    flex: 1;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 64px;
+    margin: 64px 0;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+.card-img {
+    border: solid 5px #3882f6;
+    border-radius: 10%;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 8px;
+}
+
+.card .card-txt {
+    color: #1F2937;
+    font-size: 16px;
+}
+
+
+/* REVIEW */
+
+.review {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    flex: 1;
+}
+
+.cta {
+    background-color: #f9faf8;
+    color: #1F2937;
+    flex: 1;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.hook p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 8px 0;
 }
 
 
@@ -48,7 +157,7 @@ body {
 
 .footer {
     background-color: #1F2937;
-    color: white;
+    color: #f9faf8;
     font-size: 18px;
     display: flex;
     justify-content: center;
