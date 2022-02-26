@@ -8,7 +8,7 @@ https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css
 
 Ressources
 Images:
--
+- LOGO: https://pixabay.com/vectors/eco-icon-logo-leaf-friendly-green-5465429/
 
 Flex:
-- 
+- Navrbar: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container#using_auto_margins_for_main_axis_alignment
