@@ -9,9 +9,7 @@ https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css
 Ressources:
 
 Images:
-- logo: https://pixabay.com/vectors/eco-icon-logo-leaf-friendly-green-5465429/
-- logo-b: https://pixabay.com/vectors/dragon-silhouette-black-mythology-1578289/
-- placeholder: https://pixabay.com/photos/stone-floor-wall-design-707171/
+- logo: https://pixabay.com/vectors/firefox-fox-browser-logo-icon-303322/
 
 Flex:
 - Navrbar: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container#using_auto_margins_for_main_axis_alignment
