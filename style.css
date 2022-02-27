@@ -13,6 +13,7 @@ body {
     background-color: #1F2937;
     color: white;
     font-size: 18px;
+    padding: 0 8em;
 }
 
 .headername {
@@ -25,7 +26,6 @@ body {
 .img_logo {
     height: 48px;
     width: 48px;
-    margin: 0;
 }
 
 .header ul {
@@ -34,9 +34,9 @@ body {
     justify-content: left;
     align-items: center;
     gap: 16px;
-    margin: 16px 150px;
     padding: 0;
     color: #E5E7EB;
+    flex-wrap: wrap;
 }
 
 
@@ -58,6 +58,8 @@ body {
     justify-content: center;
     padding: 64px 150px;
     gap: 64px;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .hook div {
@@ -170,6 +172,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .cta-card {
@@ -181,8 +184,13 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 128px;
-    padding: 24px 0;
+    flex-wrap: wrap;
+    padding: 15px 0;
+}
+
+.cta-txt {
+    margin: 10px 2em;
+    text-align: center;
 }
 
 .cta-txt h3 {
